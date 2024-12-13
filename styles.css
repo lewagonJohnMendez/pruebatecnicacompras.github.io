@@ -1,0 +1,59 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    font-size: 1.5rem;
+    background-color: #1e90ff; /* Azul primario */
+    color: white;
+  }
+  
+  /* Navbar adjustments */
+  .navbar {
+    background-color: #002366; /* Azul oscuro corporativo */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: white !important;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #1e90ff; /* Azul primario */
+    color: white !important;
+  }
+  
+  /* Main content */
+  main {
+    padding: 2rem 1rem;
+  }
+  
+  section {
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    border-bottom: 3px solid #1e90ff; /* Azul primario */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
