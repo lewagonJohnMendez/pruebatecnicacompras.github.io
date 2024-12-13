@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Técnica - Comprador Junior</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Respuestas Interactivas - Prueba Técnica</h1>
+  </header>
+  <main>
+    <section id="respuesta1">
+      <h2>Parte 1: Estrategia de Compras</h2>
+      <div id="grafico1"></div>
+      <script>
+        Highcharts.chart('grafico1', {
+          title: { text: 'Impacto de Aumentos de Costos' },
+          series: [{ data: [10, 20, 15] }]
+        });
+      </script>
+    </section>
+  </main>
+</body>
+</html>
